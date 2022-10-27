@@ -25,7 +25,9 @@ const options = {
       return;
     };
     btnStart.disabled = false;
- 
+    
+    let timerId = null;
+    let ms = 0;
 
     btnStart.addEventListener('click', () => {
       Notiflix.Notify.success('Start');
