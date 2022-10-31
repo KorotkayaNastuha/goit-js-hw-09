@@ -19,7 +19,7 @@ function createPromise(position, delay) {
   });
   return promise;
 }
-btnPromise.addEventListeren('click', event => {
+btnPromise.addEventListener('click', event => {
   event.preventDefault();
   let firstDelay = Number(delay.value);
   let delayStep = Number(step.value);
