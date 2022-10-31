@@ -1,7 +1,7 @@
 import flatpickr from 'flatpickr';
-import "flatpickr/dist/flatpickr.min.css";
+import 'flatpickr/dist/flatpickr.min.css';
 import Notiflix from 'notiflix';
-import "notiflix/dist/notiflix-3.2.5.min.css";
+import 'notiflix/dist/notiflix-3.2.5.min.css';
 
 const input = document.querySelector('#datetime-picker');
 const btnStart = document.querySelector('[data-start]');
@@ -76,3 +76,4 @@ function updateTimer(updateTimerObj) {
   seconds.textContent = addLeadingZero(updateTimerObj.seconds);
   
 };
+
